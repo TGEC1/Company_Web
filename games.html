@@ -7,7 +7,118 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <title>Company Website</title>
+
+<style>
+
+.navbar {
+  position: sticky; 
+  top: 0; 
+  background-color: #0E343E; 
+  color: white; 
+  z-index: 1000; 
+  padding: 10px; 
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+      color: #ffffff !important; 
+    }
+
+  
+    .container-fluid {
+        padding-left: 15rem;
+        padding-right: 0;
+      }
+      
+      .navbar-nav {
+        margin-left: 20rem; 
+        color: rgb(240, 240, 240);
+        margin-right: 0;  
+      }
+      
+      
+      .navbar-nav .nav-item {
+        margin-right: 5rem; 
+      }
+
+      
+
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff !important; 
+    transition: background-color 0.2s ease;
+  }
+  
+  
+  .navbar-nav .nav-item .nav-link:active {
+      color: #bdb35c !important; 
+      background-color: #0beec8;  
+    }
+  body {
+    background: linear-gradient(to right, #1B1931, #44174E, #662249, #A34054, #ED9E59, #E9BCB9);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.card {
+      margin: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+      opacity: 0;
+      transform: translateY(30px); 
+      animation: fadeInUp 0.5s forwards; 
+      border-radius: 10px; 
+      align-items: center;
+    }
+
     
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    
+    .card:hover {
+      transform: translateY(-10px) scale(1.05);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+      background-color: #f8f9fa; 
+      border: 2px solid #007bff; 
+    }
+
+   
+    .card-img-top {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    
+    .card:active {
+      background-color: #e2e6ea; 
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.9); 
+      transform: translateY(5px) scale(1.02); 
+      border-color: #205285;
+    }
+
+    .navbar-brand {
+  color: rgb(163, 163, 83) !important;  
+  font-weight: bold !important; 
+}
+
+</style>   
+
 </head>
 
 <nav class="navbar navbar-expand-lg" style="background-color: #0E343E;">
