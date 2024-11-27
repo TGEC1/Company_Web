@@ -8,6 +8,226 @@
 
     <title>Company Website</title>
 
+<style>
+
+.navbar {
+           position: sticky; 
+           top: 0; 
+           background-color: #0E343E; 
+           color: white; 
+           z-index: 1000; 
+           padding: 10px; 
+         }
+
+     .navbar-brand {
+        color: #ffffff !important;
+      }
+
+      .navbar-nav .nav-item .nav-link {
+        color: #ffffff !important; 
+      }
+
+  
+    .container-fluid {
+        padding-left: 15rem;
+        padding-right: 0;
+      }
+      
+      .navbar-nav {
+        margin-left: 20rem; 
+        color: rgb(240, 240, 240);
+        margin-right: 0;  
+      }
+      
+      
+      .navbar-nav .nav-item {
+        margin-right: 5rem; 
+      }
+
+      
+
+      .navbar-nav .nav-item .nav-link {
+        color: #ffffff !important; 
+        transition: background-color 0.2s ease;
+      }
+  
+  
+       .navbar-nav .nav-item .nav-link:active {
+          color: #bdb35c !important; 
+          background-color: #0beec8;  
+        }
+
+        body {
+           background: linear-gradient(to right, #1B1931, #44174E, #662249, #A34054, #ED9E59, #E9BCB9);
+           }
+
+        .contact {
+            display: flex;
+            justify-content: center; 
+            align-items: flex-start;
+            padding: 40px;
+        }
+
+        .contact-container {
+            display: flex;
+            justify-content: space-evenly; 
+            width: 100%;
+            max-width: 1100px;
+            padding: 30px;
+            border: 2px solid #ffffff; 
+            border-radius: 10px;
+            background-color: #0E343E; 
+        }
+
+        .contact-container h2 {
+            font-size: 1.2em;
+            color: white;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .right-icons-container {
+            width: 45%; 
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            color: white;
+            font-size: 1.2em;
+        }
+
+        .icon-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .icon-item:hover {
+            background-color: #34495e;
+        }
+
+        .contact-card {
+            width: 45%; 
+            color: white;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            font-size: 1em;
+        }
+
+        .contact label {
+            font-size: 1.2em;
+            color: white;
+        }
+
+        .contact input,
+        .contact textarea {
+            padding: 15px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            height: 50%;
+            transition: border-color 0.3s;
+        }
+
+        .contact input:focus,
+        .contact textarea:focus {
+            border-color: #000000;
+            outline: none;
+        }
+
+        .contact textarea {
+            resize: vertical;
+        }
+
+        .contact button {
+            background-color: #6b6a6a;
+            color: white;
+            padding: 12px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border: none;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .contact button:hover {
+            background-color: #1fc7c7;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .contact {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .contact-container {
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+
+            .right-icons-container,
+            .contact-card {
+                width: 100%;
+            }
+        }
+
+        .navbar-brand {
+         color: rgb(163, 163, 83) !important;  
+        font-weight: bold !important; 
+         }
+
+         h3 {
+          text-align: center;
+          margin-top: 1.5rem;
+          margin-bottom: 1.5rem;
+          color: white;
+          font-size: 2.5rem;
+         }
+
+         
+         @keyframes fadeInUp {
+         0% {
+         opacity: 0;
+         transform: translateY(20px);
+         }
+         100% {
+         opacity: 1;
+         transform: translateY(0);
+         }
+        }
+
+        .contact-container, .contact-card, .right-icons-container, h3 {
+         animation: fadeInUp 1s ease-out both;
+        }
+
+
+      .contact-container {
+       animation-delay: 0.3s;
+       }
+
+      .right-icons-container {
+       animation-delay: 0.5s;
+       }
+
+      .contact-card {
+       animation-delay: 0.7s;
+       }
+
+      h3 {
+       animation-delay: 0.2s;
+       }
+
+</style>
+
 
 </head>
 
