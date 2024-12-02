@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+    <title>Company Website</title>
+
+<style>
+
+header {
+            text-align: center;
+            color: white;
+            padding: 30px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+        }
+
+        header p {
+            font-size: 1.2rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .game-details {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #0E343E;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .game-details h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .game-info {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.game-info img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    align-self: flex-start; 
+}
+
+.game-info .text-content {
+    flex: 1;
+    padding: 20px;
+    max-width: 60%; 
+}
+        .game-info h3 {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .game-info p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .how-to-play {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .how-to-play h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .navbar {
+            position: sticky; 
+            top: 0; 
+            background-color: #0E343E; 
+            color: white; 
+            z-index: 1000; 
+            padding: 10px; 
+        }
+
+        .navbar {
+  position: sticky; 
+  top: 0; 
+  background-color: #0E343E; 
+  color: white; 
+  z-index: 1000; 
+  padding: 10px; 
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+      color: #ffffff !important; 
+    }
+
+  
+    .container-fluid {
+        padding-left: 15rem;
+        padding-right: 0;
+      }
+      
+      .navbar-nav {
+        margin-left: 20rem; 
+        color: rgb(240, 240, 240);
+        margin-right: 0;  
+      }
+      
+      
+      .navbar-nav .nav-item {
+        margin-right: 5rem; 
+      }
+
+      
+
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff !important; 
+    transition: background-color 0.2s ease;
+  }
+  
+  
+  .navbar-nav .nav-item .nav-link:active {
+      color: #bdb35c !important; 
+      background-color: #0beec8;  
+    }
+
+   body {
+      background: linear-gradient(to right, #1B1931, #44174E, #662249, #A34054, #ED9E59, #9e6f6d);
+  }
+
+.navbar-brand {
+  color: rgb(163, 163, 83) !important;  
+  font-weight: bold !important; 
+}
+
+</style>
+
+</head>
+
+<nav class="navbar navbar-expand-lg" style="background-color: #0E343E;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">TGEC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./games.html">Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./contactus.html">Contact</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./aboutus.html">About</a>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<body>
+
+    <header>
+        <h1 class="animate__animated animate__fadeInUp">Takyan</h1>
+        <p class="animate__animated animate__fadeInUp" style="animation-delay: 0.3s;">Larong Pinoy Traditional Game</p>
+    </header>
+
+    <section class="game-details animate__animated animate__fadeInUp" style="animation-delay: 0.5s;">
+        <h2>How to Play Takyan</h2>
+
+        <div class="game-info">
+            <div class="text-content">
+                <h3>Definition of Takyan</h3>
+                Takyan is a traditional Filipino game where players use their feet to keep a small object, such as a coin or a rubber ball, in the air. It is similar to hacky sack but is played with more diverse techniques, including kicks, foot taps, and even head or knee touches.
+            </p>
+
+            <h3>How to Play</h3>
+            <p>
+                In Takyan, the objective is to keep the object off the ground by using your feet. The object is often a coin tied to a string or a small rubber ball. Players take turns attempting to keep it in the air, using any part of their body, but the main focus is on using the feet.
+            </p>
+
+            </div>
+            <div>
+                <img src="./pictures/takyan.jpg" alt="Takyan">
+            </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>
